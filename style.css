@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#section-handel{
+    width: 100%;
+    background-image: url();
+    background-repeat: no-repeat;
+    
+}
+.nav{
+    margin-left: 30%;
+    padding: 10px;
+}
+
+li{
+    text-decoration: none;
+    display: inline;
+    font-size: 15px;
+    padding: 5px;
+    margin: 2px;
+    color: rgb(253, 252, 252);
+    background-color: rgb(6, 133, 252);
+    border-radius: 5px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    
+}
+.content-control{
+   margin: 200px 5px 20px 0px;
+}
+.colorful-word{
+    color: rgb(6, 196, 209);
+}
+.headding1{
+    margin-left: 30%;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.first{
+    display: flex;
+}
+.first p{
+    margin-left: 20%;
+    padding: 5px;
+    margin-top: 10px;
+    }
+   a{
+       padding: 10px;
+       text-decoration: none;
+       background-image: linear-gradient(rgb(231, 69, 5), rgb(209, 162, 7));
+       border-radius: 5px;
+    margin-left: 30%;
+     margin-bottom: -35px;
+}
+
+.first img{
+    width: 80%;
+}
+.section-handel{
+    display: flex;
+    width: 100%;
+    
+}
+.about-me{
+    height: 100%;
+    background-image: url();
+}
+.half-width{
+ width: 50%;
+}
+.width-control img{
+    width: 100%;
+}
+.width-control h1{
+    margin-top: 200px;
+    font-size: 25px;
+    margin-left: 30%;
+}
+.width-control p{
+    margin-top: 00px;
+    font-size: 25px;
+    width: 50%;
+    margin-left: 30%;
+}
+.content{
+    margin-left: 30%;
+}
+.recipies-item{
+    display: flex;
+}
+.recipies{
+    padding: 10px;
+    margin: 5px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(104, 101, 101);
+}
+.recipies img{
+    border-radius: 10px;
+    display: center;
+    margin-left:10%;
+}
+.digit{
+
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(104, 101, 101);
+    border-radius: 5px;
+}
+.digit h1{
+    margin-left: 20%;
+}
+footer{background-color:black;
+margin-left: 5px solid;
+border-image:linear-gradient(blue,cyan);
+border-image-slice: 1;}
+.information{
+    width: 50%;
+    margin-left: 5%; 
+}
+.info{
+    color: white;
+}
+.from{
+    width: 50%;
+    margin-left: 5%;
+}
+#submit-btn{
+    font-size: 15px;
+   color: blanchedalmond;
+   background-image: linear-gradient(rgb(218, 75, 9), rgb(197, 13, 44));
+   margin: 5px;
+   border-radius: 5px;
+   padding: 5px;
+    
+}
