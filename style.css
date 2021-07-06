@@ -9,7 +9,7 @@ body{
     
 }
 .nav{
-    margin-left: 30%;
+    margin-left: 60%;
     padding: 10px;
 }
 
@@ -20,7 +20,7 @@ li{
     padding: 5px;
     margin: 2px;
     color: rgb(253, 252, 252);
-    background-color: rgb(6, 133, 252);
+    background-color: rgb(224, 130, 6);
     border-radius: 5px;
     border-left: 2px solid;
     border-right: 2px solid;
@@ -33,15 +33,20 @@ li{
     color: rgb(6, 196, 209);
 }
 .headding1{
-    margin-left: 30%;
+    margin-left: 20%;
     font-size: 25px;
     padding: 10px;
+    color:gray;
+    
 }
 
-.first{
+.cover{
     display: flex;
+    background-image: url(img/cover.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.first p{
+.cover p{
     margin-left: 20%;
     padding: 5px;
     margin-top: 10px;
@@ -55,7 +60,7 @@ li{
      margin-bottom: -35px;
 }
 
-.first img{
+.cover img{
     width: 80%;
 }
 .section-handel{
@@ -65,7 +70,7 @@ li{
 }
 .about-me{
     height: 100%;
-    background-image: url();
+    background-image: url(img/7.png);
 }
 .half-width{
  width: 50%;
@@ -80,7 +85,7 @@ li{
 }
 .width-control p{
     margin-top: 00px;
-    font-size: 25px;
+    font-size: 20px;
     width: 50%;
     margin-left: 30%;
 }
@@ -96,6 +101,9 @@ li{
     width: 30%;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgb(104, 101, 101);
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
 .recipies img{
     border-radius: 10px;
@@ -107,13 +115,18 @@ li{
     display: flex;
     width: 80%;
     margin-left: 10%;
-    margin-top: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding: 20px;
     box-shadow: 5px 5px 5px 5px rgb(104, 101, 101);
     border-radius: 5px;
 }
 .digit h1{
     margin-left: 20%;
+    padding: 10px;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
 footer{background-color:black;
 margin-left: 5px solid;
@@ -123,8 +136,13 @@ border-image-slice: 1;}
     width: 50%;
     margin-left: 5%; 
 }
+footer .name{
+margin-left: 40%;
+
+}
 .info{
     color: white;
+    margin-left: 20%;
 }
 .from{
     width: 50%;
