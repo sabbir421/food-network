@@ -9,7 +9,7 @@ body{
     
 }
 .nav{
-    /* margin-left: 60%; */
+    
     padding: 10px;
     background-color: lightblue;
     
@@ -159,8 +159,7 @@ margin-left: 40%;
    margin: 5px;
    border-radius: 5px;
    padding: 5px;
-    
-}
+    }
 .footer-pragraph{
     color: rgb(247, 152, 9);
     margin-left: 30%;
