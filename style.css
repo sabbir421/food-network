@@ -9,10 +9,14 @@ body{
     
 }
 .nav{
-    margin-left: 60%;
+    /* margin-left: 60%; */
     padding: 10px;
+    background-color: lightblue;
+    
 }
-
+ul{
+    margin-left: 60%;
+}
 li{
     text-decoration: none;
     display: inline;
@@ -42,7 +46,7 @@ li{
 
 .cover{
     display: flex;
-    background-image: url(img/cover.png);
+    background-image: url(img/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
